@@ -2,6 +2,21 @@
 
 Create a solution for the ACME Supermarket problem.
 
+
+## Problem Solved
+
+- Ensure that yarn is installed on the machine https://yarnpkg.com/lang/en/docs/install/
+
+- open your terminal and run `yarn` to install all application dependencies
+
+- `yarn transpile` will watch all your /src files during development and transpile into the /dst folder
+
+- `yarn bundle` will bundle all your transpiled JS 
+
+- `yarn test` to run the unit tests for the basket
+
+- Develop to your hearts content!
+
 ## Description of the problem
 
 ACME's quest for global domination has prompted us to open a supermarket – we sell only three products:
