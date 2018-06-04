@@ -13,8 +13,7 @@
   },
   "scripts": {
     "test": "jest --watch",
-    "transpile": "babel src/ --watch --out-dir dst",
-    "bundle": "yarn webpack --watch"
+    "bundle": "webpack --watch"
   },
   "repository": {
     "type": "git",

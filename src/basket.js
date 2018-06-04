@@ -38,9 +38,6 @@ class Basket {
     this.bulkItems++
     const priceOff = 0.50
     if (this.bulkItems >= 3) {
-      // return this.discountedProductPricesforEach(function(element) {
-      //   console.log(element);
-      // });
     }
     return bulkPrice
 	}

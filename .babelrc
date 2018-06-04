@@ -1,9 +1,12 @@
 {
   "env": {
-    "dev": {
-       "presets": ["env"]
-     },
+    "presets": [
+      ["env", { "modules": false }]
+    ],
     "test": {
+      "presets": ["env"]
+    },
+    "production": {
       "presets": ["env"]
     }
   }
