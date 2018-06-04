@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  entry: './dst/basket',
+  entry: './src/basket',
   mode: 'production',
   output: {
     path: path.resolve(__dirname, 'public'),
