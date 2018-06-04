@@ -31,7 +31,8 @@ class Basket {
 
   getFree(freePrice) {
     this.freeItems++
-      if (this.freeItems % 2 === 0) {
+    const dividedNumber = 2
+      if (this.freeItems % dividedNumber === 0) {
         return freePrice - freePrice
       }
     return freePrice
@@ -39,8 +40,17 @@ class Basket {
 
   getBulk(bulkPrice) {
     this.bulkItems++
-      const priceOff = 0.50
-    if (this.bulkItems >= 3) {}
+    const priceOff = 0.50
+    if (this.bulkItems >= 3) {
+      this.discountedProductPrices.forEach((strawberry, index) => {
+        switch (bulkPrice) {
+          case strawberry:
+            this.discountedProductPrices[index] = strawberry - priceOff
+          break
+        }
+      })
+      return bulkPrice - priceOff
+    }
     return bulkPrice
   }
 

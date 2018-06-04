@@ -9,13 +9,13 @@ Create a solution for the ACME Supermarket problem.
 
 - open your terminal and run `yarn` to install all application dependencies
 
-- `yarn transpile` will watch all your /src files during development and transpile into the /dst folder
-
 - `yarn bundle` will bundle all your transpiled JS 
 
 - `yarn test` to run the unit tests for the basket
 
 - Develop to your hearts content!
+
+- TODO: transpilation of JS to use in browser (possily babel-cli or babel-loader for use with webpack)
 
 ## Description of the problem
 
